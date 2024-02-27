@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "postcss base.css -o ./src/css/styles.css",
-    "dev": "watch 'yarn run build' ./src"
+    "build": "postcss base.css -o public/css/styles.css",
+    "dev": "watch 'yarn run build' public"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
